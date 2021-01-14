@@ -27,7 +27,7 @@ export default class Pokedex extends Component {
         }
         return (
            <div className='Pokedex'>
-              
+                
                 {title}
                <h3>Total Experience:{this.props.exp}</h3>
                
