@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import Lottery from './components/Lottery/Lottery';
+import FlipCoin from './components/FlipCoin/FlipCoin';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>State Exercise (React) </h1>
+      <h2>Exercise 1</h2>
+      <Lottery/>
+      <Lottery title='Mini Daily' numBalls={4} maxNum={10} />
+      <hr/>
+      < FlipCoin/>
+      
+
     </div>
   );
 }
