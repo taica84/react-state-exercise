@@ -3,6 +3,8 @@ import './App.css';
 
 import Lottery from './components/Lottery/Lottery';
 import FlipCoin from './components/FlipCoin/FlipCoin';
+import Pokegame from './components/Pokemon/Pokegame/Pokegame';
+import RollingDice from './components/RollingDice/RollingDice/RolllingDice';
 
 function App() {
   return (
@@ -13,7 +15,10 @@ function App() {
       <Lottery title='Mini Daily' numBalls={4} maxNum={10} />
       <hr/>
       < FlipCoin/>
-      
+      <hr/>
+      <Pokegame/>
+      <hr/>
+      <RollingDice/>
 
     </div>
   );
